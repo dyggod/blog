@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --host",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dyggod/blog.git"
+  },
+  "author": "dyggod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyggod/blog/issues"
+  },
+  "homepage": "https://github.com/dyggod/blog#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
