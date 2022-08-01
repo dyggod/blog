@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     logo: '/assets/img/logo.png',
     nav: [
-      { text: 'Guide', link: '/guide' },
+      { text: 'Guide', link: '/guide/' },
       {
         text: 'Dropdown Menu',
         items: [
