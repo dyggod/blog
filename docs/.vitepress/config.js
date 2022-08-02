@@ -18,8 +18,8 @@ module.exports = {
       {
         text: 'Guide',
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Introduction', link: '/guide/introduction' },
+          { text: 'Getting Started', link: '/guide/getting-started' },
         ],
       }
     ],
