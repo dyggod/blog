@@ -1,6 +1,7 @@
 module.exports = {
   title: 'dyggod\'s blog',
   description: 'Just playing around',
+  base: '/',
   themeConfig: {
     logo: '/assets/img/logo.png',
     nav: [
@@ -33,6 +34,18 @@ module.exports = {
         },
         link: '...'
       }
-    ]
+    ],
+    editLink: {
+      pattern: 'https://github.com/dyggod/blog/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    }
+  },
+  markdown: {
+    config: (md) => {
+      const { demoBlockPlugin } = require('vitepress-theme-demoblock')
+      md.use(demoBlockPlugin, {
+        cssPreprocessor: 'less'
+      })
+    }
   }
 }
