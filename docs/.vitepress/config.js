@@ -3,15 +3,15 @@ module.exports = {
   description: 'Just playing around',
   base: './',
   themeConfig: {
-    logo: '/assets/img/logo.png',
+    logo: '/img/logo.png',
     nav: [
       { text: 'Guide', link: '/guide/' },
       {
         text: 'Dropdown Menu',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
+          { text: 'Item A'},
+          { text: 'Item B'},
+          { text: 'Item C'}
         ]
       }
     ],
