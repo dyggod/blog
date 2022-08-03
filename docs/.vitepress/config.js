@@ -22,6 +22,28 @@ module.exports = {
           { text: 'Introduction', link: '/guide/introduction' },
           { text: 'Getting Started', link: '/guide/getting-started' },
         ],
+      },
+      {
+        text: '扩展',
+        items: [
+          {
+            text: '辅助网站',
+            link: '/extend/website',
+          },
+          {
+            // 知识库
+            text: '知识库',
+            link: '/extend/knowledge',
+          },
+          {
+            text: 'good repo',
+            link: '/extend/good-repo',
+          },
+          {
+            text: 'good blog',
+            link: '/extend/good-blog',
+          },
+        ],
       }
     ],
     socialLinks: [
