@@ -1,7 +1,7 @@
 module.exports = {
   title: 'dyggod\'s blog',
   description: 'Just playing around',
-  base: '/repo/',
+  base: '/blog/',
   themeConfig: {
     logo: '/img/logo.png',
     nav: [
