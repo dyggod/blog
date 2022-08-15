@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/getting-started
+      link: /develop-record/
     - theme: alt
       text: 在Github上查看
       link: https://github.com/dyggod/blog

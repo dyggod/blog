@@ -4,73 +4,12 @@ module.exports = {
   base: '/blog/',
   themeConfig: {
     logo: '/img/logo.png',
-    nav: [
-      { text: 'Guide', link: '/guide/' },
-      {
-        text: 'Dropdown Menu',
-        items: [
-          { text: 'Item A'},
-          { text: 'Item B'},
-          { text: 'Item C'}
-        ]
-      }
-    ],
-    sidebar: [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Introduction', link: '/guide/introduction' },
-          { text: 'Getting Started', link: '/guide/getting-started' },
-        ],
-      },
-      {
-        text: '前端',
-        items: [
-          { text: '前端发展路线', link: '/frontend/index' },
-        ]
-      },
-      {
-        text: '服务端',
-        items: [
-          {
-            text: 'ubuntu 常用环境搭建',
-            link: '/server/ubuntu-env',
-          }
-        ]
-      },
-      {
-        text: '数据库',
-        items: [
-          { text: 'mongodb', link: '/db/mongodb' },
-        ]
-      },
-      {
-        text: '扩展',
-        items: [
-          {
-            text: '辅助网站',
-            link: '/extend/website',
-          },
-          {
-            // 知识库
-            text: '知识库',
-            link: '/extend/knowledge',
-          },
-          {
-            text: 'good repo',
-            link: '/extend/good-repo',
-          },
-          {
-            text: 'good blog',
-            link: '/extend/good-blog',
-          },
-          {
-            text: 'python',
-            link: '/extend/python'
-          }
-        ],
-      }
-    ],
+    nav: nav(),
+    sidebar: {
+      '/develop-record/': sidebarRecord(),
+      '/guide/': sidebarGuide(),
+      '/components/': sidebarComponent(),
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
       { icon: 'twitter', link: '...' },
@@ -99,4 +38,97 @@ module.exports = {
       })
     }
   }
+}
+
+function nav() {
+  return [
+    { text: '开发记录', link: '/develop-record/', activeMatch: '/develop-record/' },
+    {
+      text: '知识指导',
+      link: '/guide/',
+      activeMatch: '/guide/',
+    },
+    {
+      text: '组件',
+      link: '/components/introduction',
+      activeMatch: '/components/',
+    },
+  ];
+}
+
+function sidebarRecord() {
+  return [
+    {
+      text: '前端',
+      items: [
+        {
+          text: 'npm',
+          link: '/develop-record/frontend/npm',
+        }
+      ]
+    },
+    {
+      text: '服务端',
+      items: [
+        {
+          text: 'ubuntu 常用环境搭建',
+          link: '/develop-record/server/ubuntu-env',
+        }
+      ]
+    },
+    {
+      text: '数据库',
+      items: [
+        { text: 'mongodb', link: '/develop-record/db/mongodb' },
+      ]
+    },
+    {
+      text: '扩展',
+      collapsible: true,
+      items: [
+        {
+          text: '辅助网站',
+          link: '/develop-record/extend/website',
+        },
+        {
+          text: '知识库',
+          link: '/develop-record/extend/knowledge',
+        },
+        {
+          text: 'good repo',
+          link: '/develop-record/extend/good-repo',
+        },
+        {
+          text: 'good blog',
+          link: '/develop-record/extend/good-blog',
+        },
+        {
+          text: 'python',
+          link: '/develop-record/extend/python'
+        }
+      ],
+    }
+  ]
+}
+
+function sidebarGuide() {
+  return [
+    {
+      text: '前端',
+      items: [
+        { text: '前端发展路线', link: '/guide/frontend/index' },
+      ]
+    },
+  ];
+}
+
+function sidebarComponent() {
+  return [
+    {
+      text: '组件',
+      items: [
+        { text: '组件', link: '/components/introduction' },
+      ],
+    },
+  ];
 }
