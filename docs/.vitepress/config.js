@@ -24,6 +24,27 @@ module.exports = {
         ],
       },
       {
+        text: '前端',
+        items: [
+          { text: '前端发展路线', link: '/frontend/index' },
+        ]
+      },
+      {
+        text: '服务端',
+        items: [
+          {
+            text: 'ubuntu 常用环境搭建',
+            link: '/server/ubuntu-env',
+          }
+        ]
+      },
+      {
+        text: '数据库',
+        items: [
+          { text: 'mongodb', link: '/db/mongodb' },
+        ]
+      },
+      {
         text: '扩展',
         items: [
           {
@@ -43,6 +64,10 @@ module.exports = {
             text: 'good blog',
             link: '/extend/good-blog',
           },
+          {
+            text: 'python',
+            link: '/extend/python'
+          }
         ],
       }
     ],
@@ -60,6 +85,10 @@ module.exports = {
     editLink: {
       pattern: 'https://github.com/dyggod/blog/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present Dyggod'
     }
   },
   markdown: {
