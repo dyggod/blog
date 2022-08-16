@@ -17,12 +17,12 @@ hero:
       link: https://github.com/dyggod/blog
 
 features:
-  - title: "Vite: The DX that can't be beat"
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
-  - title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+  - title: "开发记录"
+    details: 整理了个人开发或开源中遇到的前端、数据库、后端等问题的解决方案或搭建记录
+  - title: 知识指导
+    details: 系统性整理的一些前后端知识，可作为一些技术栈的使用指南
+  - title: 组件库
+    details: 个人开源的组件库，如果你感兴趣可以安装使用
+  - title: 辅助扩展
+    details: 整理了对开发者可能有所帮助的一些常用工具网站、好的知识博客、好的github仓库
 ---

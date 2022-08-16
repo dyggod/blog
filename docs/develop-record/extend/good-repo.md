@@ -39,3 +39,5 @@
 1. [ant design mobile](https://mobile.ant.design/zh)
 
 ## 工具类
+
+1. vue表单验证框架：[VeeValidate](https://github.com/logaretm/vee-validate)，支持vue2与vue3

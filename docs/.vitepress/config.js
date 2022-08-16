@@ -44,7 +44,7 @@ function nav() {
   return [
     { text: '开发记录', link: '/develop-record/', activeMatch: '/develop-record/' },
     {
-      text: '知识指导',
+      text: '知识指南',
       link: '/guide/',
       activeMatch: '/guide/',
     },
