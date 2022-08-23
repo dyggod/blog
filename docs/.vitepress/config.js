@@ -117,6 +117,7 @@ function sidebarGuide() {
       text: '前端',
       items: [
         { text: '前端发展路线', link: '/guide/frontend/index' },
+        { text: 'git', link: '/guide/git-github/index' },
       ]
     },
   ];
