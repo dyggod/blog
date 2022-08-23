@@ -11,7 +11,7 @@ module.exports = {
       '/components/': sidebarComponent(),
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/dyggod' },
       { icon: 'twitter', link: '...' },
       // You can also add custom icons by passing SVG as string:
       {
