@@ -41,3 +41,13 @@
 ## 工具类
 
 1. vue表单验证框架：[VeeValidate](https://github.com/logaretm/vee-validate)，支持vue2与vue3
+
+
+## 代码指导
+
+### js代码风格
+
+1. [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+
+
+## Trending | 趋势
