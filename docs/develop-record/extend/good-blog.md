@@ -6,6 +6,8 @@
 
    [如何让yarn支持cnpm的完整加速](https://www.cnblogs.com/Chary/p/13862863.html)
 
+2. 配置conversation-changelog-cli
+   [自定义changelog](https://blog.cmyr.ltd/archives/caf24092.html)
 
 ## 前端打包
 
