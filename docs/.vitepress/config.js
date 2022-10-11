@@ -64,6 +64,10 @@ function sidebarRecord() {
         {
           text: 'npm',
           link: '/develop-record/frontend/npm',
+        },
+        {
+          text: 'utils',
+          link: '/develop-record/frontend/utils',
         }
       ]
     },
