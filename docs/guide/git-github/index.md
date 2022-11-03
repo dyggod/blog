@@ -145,6 +145,21 @@ git rebase -i HEAD~3  // 找到最新的三个提交并进入编辑模式
 !/model/1.js       // 除了/model下的1.js
 ```
 
+## github 推送或拉取时ssh错误
+错误信息：
+```shell
+Cloning into 'packbox'...
+kex_exchange_identification: read: Software caused connection abort
+banner exchange: Connection to 20.205.243.166 port 22: Software caused connection abort
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+解决方案：
+  1. 使用https克隆仓库 及 将仓库下`.git`目录中`config`文件中的`url`改为仓库https的地址
+
 ## git-lfs
 
 说明：[简书](https://www.jianshu.com/p/493b81544f80)
@@ -155,3 +170,9 @@ https://www.jianshu.com/p/493b81544f80
 或clone时添加：`GIT_LFS_SKIP_SMUDGE=1 git clone ...`
 
 使用指南：[指南](https://sabicalija.github.io/git-lfs-intro/)
+
+## window电脑配置两个github账号设置：
+
+https://zhuanlan.zhihu.com/p/107341502
+
+https://www.cnblogs.com/xjnotxj/p/5845574.html
