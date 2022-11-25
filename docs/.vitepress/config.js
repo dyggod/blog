@@ -49,9 +49,8 @@ function nav() {
       activeMatch: '/guide/',
     },
     {
-      text: '组件',
-      link: '/components/introduction',
-      activeMatch: '/components/',
+      text: 'DG-UI组件库',
+      link: 'https://dyggod.github.io/dg-ui/',
     },
   ];
 }
