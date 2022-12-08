@@ -38,6 +38,16 @@
 
 1. [ant design mobile](https://mobile.ant.design/zh)
 
+
+## 动画库
+
+1. [GSAP](https://greensock.com/gsap/)
+    + 一个强大的动画库，上手难度较高，但是功能强大
+2. [anime.js](https://animejs.com/)
+    + 一个轻量级的动画库，上手容易，功能强大
+3. [animate.css](https://animate.style/)
+    + 一个css动画库，上手容易，功能强大
+
 ## 工具类
 
 1. vue表单验证框架：[VeeValidate](https://github.com/logaretm/vee-validate)，支持vue2与vue3
