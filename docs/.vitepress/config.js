@@ -50,7 +50,7 @@ function nav() {
     },
     {
       text: 'DG-UI组件库',
-      link: 'https://dyggod.github.io/dg-ui/',
+      link: 'https://dyggod.github.io/dg-design-vue/',
     },
   ];
 }
@@ -123,6 +123,24 @@ function sidebarGuide() {
         { text: 'git', link: '/guide/git-github/index' },
       ]
     },
+    {
+      text: 'python',
+      items: [
+        { text: 'py学习记录', link: '/guide/python/pip' },
+      ]
+    },
+    {
+      text: 'Linux',
+      items: [
+        { text: 'Linux学习记录', link: '/guide/linux/index' },
+      ]
+    },
+    {
+      text: '人工智能/机器学习',
+      items: [
+        { text: '人工智能学习记录', link: '/guide/ai/index' },
+      ]
+    }
   ];
 }
 

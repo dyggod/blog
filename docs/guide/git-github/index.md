@@ -135,6 +135,12 @@ git rebase -i HEAD~3  // 找到最新的三个提交并进入编辑模式
 退出编辑模式:wq保存
 ```
 
+7. cherry-pick 操作
+
+```
+git cherry-pick commitId  // 将commitId的commit合并到当前分支
+```
+
 ## gitignore
 
 1. 忽略文件夹下除了某些文件的所有文件
@@ -176,3 +182,14 @@ https://www.jianshu.com/p/493b81544f80
 https://zhuanlan.zhihu.com/p/107341502
 
 https://www.cnblogs.com/xjnotxj/p/5845574.html
+
+## 错误处理
+
+1. 出现`GnuTLS recv error (-110): The TLS connection was non-properly terminated.`
+
+解决：
+```shell
+# apt-get install gnutls-bin 根据情况，不一定需要
+git config --global http.sslVerify false
+git config --global http.postBuffer 1048576000
+```
