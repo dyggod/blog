@@ -107,6 +107,9 @@ sudo apt-get upgrade software
 
 # 安装deb包
 sudo dpkg -i package.deb
+
+# 使用网络下载文件
+wget url
 ```
 
 ### 网络相关

@@ -128,3 +128,8 @@ PyTorch 官网：https://pytorch.org/
 为理解和练习 PyTorch，在此贴上一篇知乎文章：
 
 [pytorch 60题](https://zhuanlan.zhihu.com/p/99318332#:~:text=60%E9%A2%98PyTorch%E7%AE%80%E6%98%93%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%EF%BC%8C%E5%81%9A%E6%8A%80%E6%9C%AF%E7%9A%84%E5%BC%84%E6%BD%AE%E5%84%BF%F0%9F%8C%8A%201%201%20%E5%88%9D%E8%AF%86PyTorch%202%201.1%20%E5%BC%A0%E9%87%8F%201.%E5%AF%BC%E5%85%A5pytorch%E5%8C%85,3%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E8%BF%99%E9%83%A8%E5%88%86%E4%BC%9A%E5%AE%9E%E7%8E%B0LeNet5%EF%BC%8C%E7%BB%93%E6%9E%84%E5%A6%82%E4%B8%8B%E6%89%80%E7%A4%BA%208%203.1%20%E5%AE%9A%E4%B9%89%E7%BD%91%E7%BB%9C%20...%20%E6%9B%B4%E5%A4%9A%E9%A1%B9%E7%9B%AE)
+
+使用PyTorch搭建卷积神经网络：https://blog.csdn.net/juhanishen/article/details/123462838
+
+PyTorch搭建CNN卷积神经网络详解：https://blog.csdn.net/weixin_44912159/article/details/105345760
+

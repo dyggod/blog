@@ -1,4 +1,4 @@
-# ubuntu 常用环境搭建
+# ubuntu 常用环境搭建 及 WSL 相关
 
 ## ssh 配置
 
@@ -98,3 +98,21 @@ MongoDB server version: 5.0.9
   "ok" : 1
 }
 ```
+
+## 本地 WSL 系统相关
+
+### 进入 WSL 目录
+
+在资源管理器中输入 `\\wsl$`，即可进入 WSL 目录
+
+### 停止和启动 WSL
+
+使用管理员权限运行终端
+
+```sh
+net stop LxssManager # 停止 WSL
+
+net start LxssManager # 启动 WSL
+```
+
+

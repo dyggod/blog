@@ -138,7 +138,8 @@ function sidebarGuide() {
     {
       text: '人工智能/机器学习',
       items: [
-        { text: '人工智能学习记录', link: '/guide/ai/index' },
+        { text: '环境准备与知识了解', link: '/guide/ai/index' },
+        { text: '卷积神经网络', link: '/guide/ai/cnn' },
       ]
     }
   ];
