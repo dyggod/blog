@@ -130,6 +130,12 @@ function sidebarGuide() {
       ]
     },
     {
+      text: 'Rust',
+      items: [
+        { text: 'Rust学习记录', link: '/guide/rust/index' },
+      ]
+    },
+    {
       text: 'Linux',
       items: [
         { text: 'Linux学习记录', link: '/guide/linux/index' },
