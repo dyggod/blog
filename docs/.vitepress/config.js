@@ -86,9 +86,27 @@ function sidebarRecord() {
       ]
     },
     {
+      text: "记录",
+      items: [
+        {
+          text: '分布式介绍', link: '/develop-record/db/distributed#什么是分布式数据库'
+        },
+        {
+          text: '负载均衡', link: '/develop-record/db/distributed#什么是负载均衡'
+        },
+        {
+          text: 'NTP及时间同步', link: '/develop-record/db/distributed#什么是ntp？同步'
+        }
+      ],
+    },
+    {
       text: '扩展',
       collapsible: true,
       items: [
+        {
+          text: 'vscode',
+          lint: '/develop-record/vscode/index'
+        },
         {
           text: '辅助网站',
           link: '/develop-record/extend/website',

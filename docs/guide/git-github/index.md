@@ -183,6 +183,10 @@ https://zhuanlan.zhihu.com/p/107341502
 
 https://www.cnblogs.com/xjnotxj/p/5845574.html
 
+## github 下载加速
+
+[博客](https://www.cnblogs.com/jsfh/p/14509629.html)
+
 ## 错误处理
 
 1. 出现`GnuTLS recv error (-110): The TLS connection was non-properly terminated.`
