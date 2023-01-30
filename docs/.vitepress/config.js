@@ -100,13 +100,19 @@ function sidebarRecord() {
       ],
     },
     {
-      text: '扩展',
+      text: '开发工具',
       collapsible: true,
       items: [
         {
           text: 'vscode',
-          lint: '/develop-record/vscode/index'
-        },
+          link: '/develop-record/tools/vscode/index',
+        }
+      ]
+    },
+    {
+      text: '扩展',
+      collapsible: true,
+      items: [
         {
           text: '辅助网站',
           link: '/develop-record/extend/website',
